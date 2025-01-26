@@ -1,6 +1,0 @@
-did,Dataset Name,Class Column,No. of Rows,No. of Columns,No. of Extracted Meta-Features,One-Hot Encoded?,Label Encoded?
-3,kr-vs-kp,class,3196,37,111,True,True
-31,credit-g,class,1000,48,111,True,True
-37,diabetes,class,768,8,111,False,True
-44,spambase,class,4601,57,111,False,True
-50,tic-tac-toe,Class,958,18,111,True,True
