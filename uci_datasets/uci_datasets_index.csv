@@ -1,0 +1,210 @@
+id,name
+1,Abalone
+2,Adult
+3,Annealing
+8,Audiology (Standardized)
+9,Auto MPG
+10,Automobile
+12,Balance Scale
+13,Balloons
+14,Breast Cancer
+15,Breast Cancer Wisconsin (Original)
+16,Breast Cancer Wisconsin (Prognostic)
+17,Breast Cancer Wisconsin (Diagnostic)
+18,Pittsburgh Bridges
+19,Car Evaluation
+20,Census Income
+22,Chess (King-Rook vs. King-Pawn)
+23,Chess (King-Rook vs. King)
+26,Connect-4
+27,Credit Approval
+28,Japanese Credit Screening
+29,Computer Hardware
+30,Contraceptive Method Choice
+31,Covertype
+32,Cylinder Bands
+33,Dermatology
+38,Echocardiogram
+39,Ecoli
+40,Flags
+42,Glass Identification
+43,Haberman's Survival
+44,Hayes-Roth
+45,Heart Disease
+46,Hepatitis
+47,Horse Colic
+50,Image Segmentation
+52,Ionosphere
+53,Iris
+54,ISOLET
+58,Lenses
+59,Letter Recognition
+60,Liver Disorders
+62,Lung Cancer
+63,Lymphography
+69,Molecular Biology (Splice-junction Gene Sequences)
+70,MONK's Problems
+73,Mushroom
+74,Musk (Version 1)
+75,Musk (Version 2)
+76,Nursery
+78,Page Blocks Classification
+80,Optical Recognition of Handwritten Digits
+81,Pen-Based Recognition of Handwritten Digits
+82,Post-Operative Patient
+83,Primary Tumor
+87,Servo
+88,Shuttle Landing Control
+89,Solar Flare
+90,Soybean (Large)
+91,Soybean (Small)
+92,Challenger USA Space Shuttle O-Ring
+94,Spambase
+95,SPECT Heart
+96,SPECTF Heart
+101,Tic-Tac-Toe Endgame
+105,Congressional Voting Records
+107,Waveform Database Generator (Version 1)
+109,Wine
+110,Yeast
+111,Zoo
+116,US Census Data (1990)
+117,Census-Income (KDD)
+122,El Nino
+143,Statlog (Australian Credit Approval)
+144,Statlog (German Credit Data)
+145,Statlog (Heart)
+146,Statlog (Landsat Satellite)
+147,Statlog (Image Segmentation)
+148,Statlog (Shuttle)
+149,Statlog (Vehicle Silhouettes)
+151,"Connectionist Bench (Sonar, Mines vs. Rocks)"
+155,Cloud
+158,Poker Hand
+159,MAGIC Gamma Telescope
+161,Mammographic Mass
+162,Forest Fires
+165,Concrete Compressive Strength
+172,Ozone Level Detection
+174,Parkinsons
+176,Blood Transfusion Service Center
+183,Communities and Crime
+184,Acute Inflammations
+186,Wine Quality
+189,Parkinsons Telemonitoring
+193,Cardiotocography
+198,Steel Plates Faults
+211,Communities and Crime Unnormalized
+212,Vertebral Column
+222,Bank Marketing
+225,ILPD (Indian Liver Patient Dataset)
+229,Skin Segmentation
+235,Individual Household Electric Power Consumption
+242,Energy Efficiency
+244,Fertility
+247,ISTANBUL STOCK EXCHANGE
+257,User Knowledge Modeling
+264,EEG Eye State
+267,Banknote Authentication
+270,Gas Sensor Array Drift at Different Concentrations
+275,Bike Sharing
+277,Thoracic Surgery Data
+291,Airfoil Self-Noise
+292,Wholesale customers
+294,Combined Cycle Power Plant
+296,Diabetes 130-US Hospitals for Years 1999-2008
+300,Tennis Major Tournament Match Statistics
+312,Dow Jones Index
+320,Student Performance
+327,Phishing Websites
+329,Diabetic Retinopathy Debrecen
+332,Online News Popularity
+336,Chronic Kidney Disease
+342,Mice Protein Expression
+350,Default of Credit Card Clients
+352,Online Retail
+357,Occupancy Detection 
+360,Air Quality
+365,Polish Companies Bankruptcy
+367,Dota2 Games Results
+368,Facebook Metrics
+372,HTRU2
+373,Drug Consumption (Quantified)
+374,Appliances Energy Prediction
+379,Website Phishing
+380,YouTube Spam Collection
+381,Beijing PM2.5
+383,Cervical Cancer (Risk Factors)
+390,Stock Portfolio Performance
+396,Sales Transactions Weekly
+409,Daily Demand Forecasting Orders
+419,Autistic Spectrum Disorder Screening Data for Children  
+426,Autism Screening Adult
+445,Absenteeism at work
+451,Breast Cancer Coimbra
+461,Drug Reviews (Druglib.com)
+462,Drug Reviews (Drugs.com)
+464,Superconductivty Data
+467,Student Academics Performance
+468,Online Shoppers Purchasing Intention Dataset
+471,Electrical Grid Stability Simulated Data 
+477,Real Estate Valuation
+484,Travel Reviews
+485,Travel Review Ratings
+488,Facebook Live Sellers in Thailand
+492,Metro Interstate Traffic Volume
+503,Hepatitis C Virus (HCV) for Egyptian patients
+519,Heart Failure Clinical Records
+529,Early Stage Diabetes Risk Prediction
+536,Pedestrians in Traffic
+537,Cervical Cancer Behavior Risk
+544,Estimation of Obesity Levels Based On Eating Habits and Physical Condition 
+545,Rice (Cammeo and Osmancik)
+547,Algerian Forest Fires
+551,Gas Turbine CO and NOx Emission Data Set
+555,Apartment for Rent Classified
+560,Seoul Bike Sharing Demand
+563,Iranian Churn
+565,Bone marrow transplant: children
+567,COVID-19 Surveillance
+571,HCV data
+572,Taiwanese Bankruptcy Prediction
+579,Myocardial infarction complications
+582,Student Performance on an Entrance Examination
+591,Gender by Name
+597,Productivity Prediction of Garment Employees
+601,AI4I 2020 Predictive Maintenance Dataset
+602,Dry Bean
+603,In-Vehicle Coupon Recommendation
+697,Predict Students' Dropout and Academic Success
+713,Auction Verification
+722,NATICUSdroid (Android Permissions)
+728,Toxicity
+732,DARWIN
+755,Accelerometer Gyro Mobile Phone
+759,Glioma Grading Clinical and Mutation Features
+760,Multivariate Gait Data
+763,Land Mines
+799,Single Elder Home Monitoring: Gas and Position
+827,Sepsis Survival Minimal Clinical Records
+848,Secondary Mushroom
+849,Power Consumption of Tetouan City
+850,Raisin
+851,Steel Industry Energy Consumption
+856,Higher Education Students Performance Evaluation
+857,Risk Factor Prediction of Chronic Kidney Disease
+863,Maternal Health Risk
+864,Room Occupancy Estimation
+878,Cirrhosis Patient Survival Prediction
+880,SUPPORT2
+887,National Health and Nutrition Health Survey 2013-2014 (NHANES) Age Prediction Subset
+890,AIDS Clinical Trials Group Study 175
+891,CDC Diabetes Health Indicators
+911,Recipe Reviews and User Feedback
+913,Forty Soybean Cultivars from Subsequent Harvests
+915,Differentiated Thyroid Cancer Recurrence
+925,Infrared Thermography Temperature
+936,National Poll on Healthy Aging (NPHA)
+938,Regensburg Pediatric Appendicitis
+942,RT-IoT2022 
+967,PhiUSIIL Phishing URL (Website)
