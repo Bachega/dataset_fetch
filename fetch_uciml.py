@@ -72,9 +72,26 @@ def fetch_uciml_datasets(
     for name in dts_names:
         try:
             dataset = fetch_ucirepo(name)
-            df = dataset.data.features
+            df = dataset.data.features.copy()
+            target = dataset.data.target  
             metadata = dataset.get("metadata", {})
             additional_info = metadata.get("additional_info", {})
+
+            # Determine target column names
+            raw_target_cols = metadata.get('target_col', [])
+            if isinstance(raw_target_cols, (list, tuple)):
+                target_cols = [str(tc) for tc in raw_target_cols]
+            else:
+                target_cols = [str(raw_target_cols)]
+
+            # Append target data to df
+            if target.ndim == 1:
+                # single target column
+                df[target_cols[0]] = target
+            else:
+                # multi-output target: assume alignment of names
+                for idx, col_name in enumerate(target_cols):
+                    df[col_name] = target[:, idx]
 
             row = [metadata.get(key) for key in info_columns]
             row += [additional_info.get(key) for key in additional_info_columns]
@@ -103,3 +120,4 @@ def fetch_uciml_datasets(
     uciml_summary.to_csv("./uciml_summary.csv", index=False)
 
 build_uciml_summary()
+fetch_uciml_datasets()
