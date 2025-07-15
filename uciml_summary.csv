@@ -51,7 +51,6 @@ uci_id,name,repository_url,data_url,num_instances,num_features,has_missing_value
 83,Primary Tumor,https://archive.ics.uci.edu/dataset/83/primary+tumor,https://archive.ics.uci.edu/static/public/83/data.csv,339,17,yes,,,True,class
 87,Servo,https://archive.ics.uci.edu/dataset/87/servo,https://archive.ics.uci.edu/static/public/87/data.csv,167,4,no,,,True,class
 88,Shuttle Landing Control,https://archive.ics.uci.edu/dataset/88/shuttle+landing+control,https://archive.ics.uci.edu/static/public/88/data.csv,15,6,yes,,,True,Class
-89,Solar Flare,https://archive.ics.uci.edu/dataset/89/solar+flare,https://archive.ics.uci.edu/static/public/89/data.csv,1389,10,no,,,False,common flares;moderate flares;severe flares
 90,Soybean (Large),https://archive.ics.uci.edu/dataset/90/soybean+large,https://archive.ics.uci.edu/static/public/90/data.csv,307,35,yes,,,True,class
 91,Soybean (Small),https://archive.ics.uci.edu/dataset/91/soybean+small,https://archive.ics.uci.edu/static/public/91/data.csv,47,35,no,,,True,class
 92,Challenger USA Space Shuttle O-Ring,https://archive.ics.uci.edu/dataset/92/challenger+usa+space+shuttle+o+ring,https://archive.ics.uci.edu/static/public/92/data.csv,23,4,no,,,True,num_O_rings
@@ -82,17 +81,11 @@ uci_id,name,repository_url,data_url,num_instances,num_features,has_missing_value
 174,Parkinsons,https://archive.ics.uci.edu/dataset/174/parkinsons,https://archive.ics.uci.edu/static/public/174/data.csv,197,22,no,,,True,status
 176,Blood Transfusion Service Center,https://archive.ics.uci.edu/dataset/176/blood+transfusion+service+center,https://archive.ics.uci.edu/static/public/176/data.csv,748,4,no,,,True,Donated_Blood
 183,Communities and Crime,https://archive.ics.uci.edu/dataset/183/communities+and+crime,https://archive.ics.uci.edu/static/public/183/data.csv,1994,127,yes,,,True,ViolentCrimesPerPop
-184,Acute Inflammations,https://archive.ics.uci.edu/dataset/184/acute+inflammations,https://archive.ics.uci.edu/static/public/184/data.csv,120,6,no,,,False,bladder-inflammation;nephritis
 186,Wine Quality,https://archive.ics.uci.edu/dataset/186/wine+quality,https://archive.ics.uci.edu/static/public/186/data.csv,4898,11,no,,,True,quality
-189,Parkinsons Telemonitoring,https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring,https://archive.ics.uci.edu/static/public/189/data.csv,5875,19,no,,,False,motor_UPDRS;total_UPDRS
-193,Cardiotocography,https://archive.ics.uci.edu/dataset/193/cardiotocography,https://archive.ics.uci.edu/static/public/193/data.csv,2126,21,no,,,False,CLASS;NSP
-198,Steel Plates Faults,https://archive.ics.uci.edu/dataset/198/steel+plates+faults,https://archive.ics.uci.edu/static/public/198/data.csv,1941,27,no,,,False,Pastry;Z_Scratch;K_Scratch;Stains;Dirtiness;Bumps;Other_Faults
-211,Communities and Crime Unnormalized,https://archive.ics.uci.edu/dataset/211/communities+and+crime+unnormalized,https://archive.ics.uci.edu/static/public/211/data.csv,2215,125,yes,,,False,murders;murdPerPop;rapes;rapesPerPop;robberies;robbbPerPop;assaults;assaultPerPop;burglaries;burglPerPop;larcenies;larcPerPop;autoTheft;autoTheftPerPop;arsons;arsonsPerPop;violentPerPop;nonViolPerPop
 212,Vertebral Column,https://archive.ics.uci.edu/dataset/212/vertebral+column,https://archive.ics.uci.edu/static/public/212/data.csv,310,6,no,,,True,class
 222,Bank Marketing,https://archive.ics.uci.edu/dataset/222/bank+marketing,https://archive.ics.uci.edu/static/public/222/data.csv,45211,16,yes,,,True,y
 225,ILPD (Indian Liver Patient Dataset),https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset,https://archive.ics.uci.edu/static/public/225/data.csv,583,10,no,"Any patient whose age exceeded 89 is listed as being of age ""90"".",,True,Selector
 229,Skin Segmentation,https://archive.ics.uci.edu/dataset/229/skin+segmentation,https://archive.ics.uci.edu/static/public/229/data.csv,245057,3,no,,,True,y
-242,Energy Efficiency,https://archive.ics.uci.edu/dataset/242/energy+efficiency,https://archive.ics.uci.edu/static/public/242/data.csv,768,8,no,,,False,Y1;Y2
 244,Fertility,https://archive.ics.uci.edu/dataset/244/fertility,https://archive.ics.uci.edu/static/public/244/data.csv,100,9,no,,,True,diagnosis
 257,User Knowledge Modeling,https://archive.ics.uci.edu/dataset/257/user+knowledge+modeling,https://archive.ics.uci.edu/static/public/257/data.csv,403,5,no,,,True,UNS
 264,EEG Eye State,https://archive.ics.uci.edu/dataset/264/eeg+eye+state,https://archive.ics.uci.edu/static/public/264/data.csv,14980,14,no,,,True,eyeDetection
@@ -106,7 +99,6 @@ uci_id,name,repository_url,data_url,num_instances,num_features,has_missing_value
 296,Diabetes 130-US Hospitals for Years 1999-2008,https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008,https://archive.ics.uci.edu/static/public/296/data.csv,101766,47,yes,,"No recommendation. The standard train-test split could be used. Can use three-way holdout split (i.e., train-validation-test) when doing model selection.",True,readmitted
 300,Tennis Major Tournament Match Statistics,https://archive.ics.uci.edu/dataset/300/tennis+major+tournament+match+statistics,https://archive.ics.uci.edu/static/public/300/data.csv,127,42,yes,,,True,Result
 312,Dow Jones Index,https://archive.ics.uci.edu/dataset/312/dow+jones+index,https://archive.ics.uci.edu/static/public/312/data.csv,750,15,no,,,True,percent_change_next_weeks_price
-320,Student Performance,https://archive.ics.uci.edu/dataset/320/student+performance,https://archive.ics.uci.edu/static/public/320/data.csv,649,30,no,,,False,G1;G2;G3
 327,Phishing Websites,https://archive.ics.uci.edu/dataset/327/phishing+websites,https://archive.ics.uci.edu/static/public/327/data.csv,11055,30,no,,,True,result
 329,Diabetic Retinopathy Debrecen,https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen,https://archive.ics.uci.edu/static/public/329/data.csv,1151,19,no,,,True,Class
 332,Online News Popularity,https://archive.ics.uci.edu/dataset/332/online+news+popularity,https://archive.ics.uci.edu/static/public/332/data.csv,39797,58,no,,,True, shares
@@ -118,12 +110,10 @@ uci_id,name,repository_url,data_url,num_instances,num_features,has_missing_value
 367,Dota2 Games Results,https://archive.ics.uci.edu/dataset/367/dota2+games+results,https://archive.ics.uci.edu/static/public/367/data.csv,102944,115,no,,,True,win
 368,Facebook Metrics,https://archive.ics.uci.edu/dataset/368/facebook+metrics,https://archive.ics.uci.edu/static/public/368/data.csv,500,18,no,,,True,Total Interactions
 372,HTRU2,https://archive.ics.uci.edu/dataset/372/htru2,https://archive.ics.uci.edu/static/public/372/data.csv,17898,8,no,,,True,class
-373,Drug Consumption (Quantified),https://archive.ics.uci.edu/dataset/373/drug+consumption+quantified,https://archive.ics.uci.edu/static/public/373/data.csv,1885,12,no,,,False,alcohol;amphet;amyl;benzos;caff;cannabis;choc;coke;crack;ecstasy;heroin;ketamine;legalh;lsd;meth;mushrooms;nicotine;semer;vsa
 374,Appliances Energy Prediction,https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction,https://archive.ics.uci.edu/static/public/374/data.csv,19735,28,no,,,True,Appliances
 379,Website Phishing,https://archive.ics.uci.edu/dataset/379/website+phishing,https://archive.ics.uci.edu/static/public/379/data.csv,1353,9,no,,,True,Result
 380,YouTube Spam Collection,https://archive.ics.uci.edu/dataset/380/youtube+spam+collection,https://archive.ics.uci.edu/static/public/380/data.csv,1956,3,no,,,True,CLASS
 381,Beijing PM2.5,https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data,https://archive.ics.uci.edu/static/public/381/data.csv,43824,11,yes,,,True,pm2.5
-390,Stock Portfolio Performance,https://archive.ics.uci.edu/dataset/390/stock+portfolio+performance,https://archive.ics.uci.edu/static/public/390/data.csv,315,12,no,,,False,Annual Return;Excess Return;Systematic Risk;Total Risk;Abs. Win Rate;Rel. Win Rate
 409,Daily Demand Forecasting Orders,https://archive.ics.uci.edu/dataset/409/daily+demand+forecasting+orders,https://archive.ics.uci.edu/static/public/409/data.csv,60,12,no,,,True,Total orders
 419,Autistic Spectrum Disorder Screening Data for Children  ,https://archive.ics.uci.edu/dataset/419/autistic+spectrum+disorder+screening+data+for+children,https://archive.ics.uci.edu/static/public/419/data.csv,292,20,yes,,,True,class
 426,Autism Screening Adult,https://archive.ics.uci.edu/dataset/426/autism+screening+adult,https://archive.ics.uci.edu/static/public/426/data.csv,704,20,yes,,,True,class
@@ -131,7 +121,6 @@ uci_id,name,repository_url,data_url,num_instances,num_features,has_missing_value
 451,Breast Cancer Coimbra,https://archive.ics.uci.edu/dataset/451/breast+cancer+coimbra,https://archive.ics.uci.edu/static/public/451/data.csv,116,9,no,,,True,Classification
 464,Superconductivty Data,https://archive.ics.uci.edu/dataset/464/superconductivty+data,https://archive.ics.uci.edu/static/public/464/data.csv,21263,81,no,,,True,critical_temp
 468,Online Shoppers Purchasing Intention Dataset,https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset,https://archive.ics.uci.edu/static/public/468/data.csv,12330,17,no,,,True,Revenue
-471,Electrical Grid Stability Simulated Data ,https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data,https://archive.ics.uci.edu/static/public/471/data.csv,10000,12,no,,,False,stab;stabf
 477,Real Estate Valuation,https://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set,https://archive.ics.uci.edu/static/public/477/data.csv,414,6,no,,,True,Y house price of unit area
 492,Metro Interstate Traffic Volume,https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume,https://archive.ics.uci.edu/static/public/492/data.csv,48204,8,no,,,True,traffic_volume
 503,Hepatitis C Virus (HCV) for Egyptian patients,https://archive.ics.uci.edu/dataset/503/hepatitis+c+virus+hcv+for+egyptian+patients,https://archive.ics.uci.edu/static/public/503/data.csv,1385,28,no,,,True,Baselinehistological staging
@@ -147,14 +136,11 @@ uci_id,name,repository_url,data_url,num_instances,num_features,has_missing_value
 567,COVID-19 Surveillance,https://archive.ics.uci.edu/dataset/567/covid+19+surveillance,https://archive.ics.uci.edu/static/public/567/data.csv,14,7,no,,,True,Categories
 571,HCV data,https://archive.ics.uci.edu/dataset/571/hcv+data,https://archive.ics.uci.edu/static/public/571/data.csv,615,12,yes,,,True,Category
 572,Taiwanese Bankruptcy Prediction,https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction,https://archive.ics.uci.edu/static/public/572/data.csv,6819,95,no,,,True,Bankrupt?
-579,Myocardial infarction complications,https://archive.ics.uci.edu/dataset/579/myocardial+infarction+complications,https://archive.ics.uci.edu/static/public/579/data.csv,1700,111,yes,,,False,FIBR_PREDS;PREDS_TAH;JELUD_TAH;FIBR_JELUD;A_V_BLOK;OTEK_LANC;RAZRIV;DRESSLER;ZSN;REC_IM;P_IM_STEN;LET_IS
 582,Student Performance on an Entrance Examination,https://archive.ics.uci.edu/dataset/582/student+performance+on+an+entrance+examination,https://archive.ics.uci.edu/static/public/582/data.csv,666,11,no,,,True,Performance
 597,Productivity Prediction of Garment Employees,https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees,https://archive.ics.uci.edu/static/public/597/data.csv,1197,14,yes,,,True,actual_productivity
-601,AI4I 2020 Predictive Maintenance Dataset,https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset,https://archive.ics.uci.edu/static/public/601/data.csv,10000,6,no,,,False,Machine failure;TWF;HDF;PWF;OSF;RNF
 602,Dry Bean,https://archive.ics.uci.edu/dataset/602/dry+bean+dataset,https://archive.ics.uci.edu/static/public/602/data.csv,13611,16,no,,,True,Class
 603,In-Vehicle Coupon Recommendation,https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation,https://archive.ics.uci.edu/static/public/603/data.csv,12684,25,no,,,True,Y
 697,Predict Students' Dropout and Academic Success,https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success,https://archive.ics.uci.edu/static/public/697/data.csv,4424,36,no,"We performed a rigorous data preprocessing to handle data from anomalies, unexplainable outliers, and missing values.","The dataset was used, in our project, with a data split of 80% for training and 20% for test.",True,Target
-713,Auction Verification,https://archive.ics.uci.edu/dataset/713/auction+verification,https://archive.ics.uci.edu/static/public/713/data.csv,2043,7,no,,,False,verification.result;verification.time
 722,NATICUSdroid (Android Permissions),https://archive.ics.uci.edu/dataset/722/naticusdroid+android+permissions+dataset,https://archive.ics.uci.edu/static/public/722/data.csv,29333,86,no,,"70-30, 10-fold cross validation",True,Result
 732,DARWIN,https://archive.ics.uci.edu/dataset/732/darwin,https://archive.ics.uci.edu/static/public/732/data.csv,174,451,no,,,True,class
 759,Glioma Grading Clinical and Mutation Features,https://archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset,https://archive.ics.uci.edu/static/public/759/data.csv,839,23,no,"Yes. 
@@ -172,7 +158,6 @@ Below is a list of the additional columns of the original dataset file (and thei
 - Primary_Diagnosis column provides information related to the type of primary diagnosis. ","No. We suggest 10-fold cross-validation for feature selection, classification etc.",True,Grade
 827,Sepsis Survival Minimal Clinical Records,https://archive.ics.uci.edu/dataset/827/sepsis+survival+minimal+clinical+records,https://archive.ics.uci.edu/static/public/827/data.csv,110341,3,no,All the categorical variables have been encoded (so no preprocessing is necessary).,"No recommendation, standard train-test split could be used. Can use three-way holdout split (i.e., training, validation/development, testing) when doing model selection.",True,hospital_outcome_1alive_0dead
 848,Secondary Mushroom,https://archive.ics.uci.edu/dataset/848/secondary+mushroom+dataset,https://archive.ics.uci.edu/static/public/848/data.csv,61068,20,yes,,,True,class
-849,Power Consumption of Tetouan City,https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city,https://archive.ics.uci.edu/static/public/849/data.csv,52417,6,no,,,False,Zone 1 Power Consumption;Zone 2  Power Consumption;Zone 3  Power Consumption
 850,Raisin,https://archive.ics.uci.edu/dataset/850/raisin,https://archive.ics.uci.edu/static/public/850/data.csv,900,7,no,,,True,Class
 851,Steel Industry Energy Consumption,https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption,https://archive.ics.uci.edu/static/public/851/data.csv,35040,9,no,,,True,Load_Type
 856,Higher Education Students Performance Evaluation,https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation,https://archive.ics.uci.edu/static/public/856/data.csv,145,31,no,,,True,OUTPUT Grade
@@ -182,24 +167,11 @@ Below is a list of the additional columns of the original dataset file (and thei
 878,Cirrhosis Patient Survival Prediction,https://archive.ics.uci.edu/dataset/878/cirrhosis+patient+survival+prediction+dataset-1,https://archive.ics.uci.edu/static/public/878/data.csv,418,17,yes,"1. Drop all the rows where miss value (NA) were present in the Drug column
 2. Impute missing values with mean results
 3. One-hot encoding for all category attributes",,True,Status
-880,SUPPORT2,https://archive.ics.uci.edu/dataset/880/support2,https://archive.ics.uci.edu/static/public/880/data.csv,9105,42,yes,"No.  Due to the high percentage of missing values, there are a couple of recommended imputation values:
-According to the HBiostat Repository (https://hbiostat.org/data/repo/supportdesc, Professor Frank Harrell) the following default values have been found to be useful in imputing missing baseline physiologic data:
-Baseline Variable	Normal Fill-in Value
-- Serum albumin (alb)	3.5
-- PaO2/FiO2 ratio (pafi) 	333.3
-- Bilirubin (bili)	1.01
-- Creatinine (crea)	1.01
-- bun	6.51
-- White blood count (wblc)	9 (thousands)
-- Urine output (urine)	2502
-There are 159 patients surviving 2 months for whom there were no patient or surrogate interviews. These patients have missing sfdm2.","No recommendation, standard train-test split could be used. Can use three-way holdout split (i.e., train-validation-test) when doing model selection.",False,death;hospdead;sfdm2
 887,National Health and Nutrition Health Survey 2013-2014 (NHANES) Age Prediction Subset,https://archive.ics.uci.edu/dataset/887/national+health+and+nutrition+health+survey+2013-2014+(nhanes)+age+prediction+subset,https://archive.ics.uci.edu/static/public/887/data.csv,6287,7,no,"For this subset respondents 65 years old and older were labeled  as “senior” and all individuals under 65 years old as “non-senior.”
 ",,True,age_group
 890,AIDS Clinical Trials Group Study 175,https://archive.ics.uci.edu/dataset/890/aids+clinical+trials+group+study+175,https://archive.ics.uci.edu/static/public/890/data.csv,2139,23,no,No,Cross validation or a single train-test split could be used.,True,cid
 891,CDC Diabetes Health Indicators,https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators,https://archive.ics.uci.edu/static/public/891/data.csv,253680,21,no,Bucketing of age,Cross validation or a fixed train-test split could be used.,True,Diabetes_binary
 915,Differentiated Thyroid Cancer Recurrence,https://archive.ics.uci.edu/dataset/915/differentiated+thyroid+cancer+recurrence,https://archive.ics.uci.edu/static/public/915/data.csv,383,16,no,,No,True,Recurred
-925,Infrared Thermography Temperature,https://archive.ics.uci.edu/dataset/925/infrared+thermography+temperature+dataset,https://archive.ics.uci.edu/static/public/925/data.csv,1020,33,no,,,False,aveOralF;aveOralM
 936,National Poll on Healthy Aging (NPHA),https://archive.ics.uci.edu/dataset/936/national+poll+on+healthy+aging+(npha),https://archive.ics.uci.edu/static/public/936/data.csv,714,14,no,For this subset of the original NPHA dataset we chose 14 features related to health and sleep to use for the prediction task. We then removed all survey respondents with missing responses for any of the chosen features.,,True,Number_of_Doctors_Visited
-938,Regensburg Pediatric Appendicitis,https://archive.ics.uci.edu/dataset/938/regensburg+pediatric+appendicitis,https://archive.ics.uci.edu/static/public/938/data.csv,782,53,yes,,,False,Management;Severity;Diagnosis
 942,RT-IoT2022 ,https://archive.ics.uci.edu/dataset/942/rt-iot2022,https://archive.ics.uci.edu/static/public/942/data.csv,123117,83,no,,,True,Attack_type
 967,PhiUSIIL Phishing URL (Website),https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset,https://archive.ics.uci.edu/static/public/967/data.csv,235795,54,no,,,True,label

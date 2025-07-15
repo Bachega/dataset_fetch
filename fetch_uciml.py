@@ -53,8 +53,8 @@ def build_uciml_summary(
 
 
 def fetch_uciml_datasets(
-    uci_index_path: str = "./uci_datasets/uci_datasets_index.csv",
-    output_dir: str = "./uci_datasets/datasets"
+    uci_index_path: str = "./uci_datasets_index.csv",
+    output_dir: str = "./datasets"
 ):
     uci_datasets_index = pd.read_csv(uci_index_path)
     dts_names = uci_datasets_index['name'].to_list()
@@ -71,12 +71,17 @@ def fetch_uciml_datasets(
 
     for name in dts_names:
         try:
-            dataset = fetch_ucirepo(name)
+            dataset = fetch_ucirepo(name=name)
             df = dataset.data.features.copy()
-            target = dataset.data.target  
+
+            target = dataset.data.targets  # -> dataframe
+            target = target.squeeze() # -> transforming into series
+            
+            
             metadata = dataset.get("metadata", {})
             additional_info = metadata.get("additional_info", {})
-
+            
+            
             # Determine target column names
             raw_target_cols = metadata.get('target_col', [])
             if isinstance(raw_target_cols, (list, tuple)):
@@ -121,3 +126,15 @@ def fetch_uciml_datasets(
 
 build_uciml_summary()
 fetch_uciml_datasets()
+
+# from ucimlrepo import fetch_ucirepo, list_available_datasets
+
+# list_available_datasets()
+
+# heart_disease = fetch_ucirepo(name='Computer Hardware')
+# X = heart_disease.data.features
+# y = heart_disease.data.targets
+
+# print(X)
+# print(y)
+

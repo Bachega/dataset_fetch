@@ -51,11 +51,16 @@ def process_datasets(
         y_series = df[y_col]
 
         # 1. Preprocess features
-        preprocessor = build_preprocessor(X_df)
-        X_processed = preprocessor.fit_transform(X_df)
 
-        # 2. Preprocess target
-        y_processed, transformation_info, encoded_flag = preprocess_target(y_series)
+        try:
+            preprocessor = build_preprocessor(X_df)
+            X_processed = preprocessor.fit_transform(X_df)
+
+            # 2. Preprocess target
+            y_processed, transformation_info, encoded_flag = preprocess_target(y_series)
+        except Exception:
+            print("Error in fit_transform or preprocess_target")
+            continue
 
         # 3. Build processed DataFrame
         try:
@@ -66,7 +71,7 @@ def process_datasets(
         proc_df['target'] = y_processed
 
         # 4. Dimension check
-        if proc_df.shape[0] > 100000 and proc_df.shape[1] > 200:
+        if proc_df.shape[0] > 100000 and proc_df.shape[1] > 100:
             print(f"{fname}: too large after preprocessing, skipping.")
             continue
 
@@ -74,7 +79,5 @@ def process_datasets(
         out_fname = os.path.join(processed_folder, fname)
         proc_df.to_csv(out_fname, index=False)
         print(f"Saved processed dataset to {out_fname} (shape: {proc_df.shape})")
-
-        if i > 3: break
 
 process_datasets()
